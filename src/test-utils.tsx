@@ -1,6 +1,6 @@
 import * as React from "react"
 import { render, RenderOptions } from "@testing-library/react"
-import { ChakraProvider } from "@chakra-ui/core"
+import { ChakraProvider } from "@chakra-ui/react"
 import theme from "@chakra-ui/theme"
 
 const AllProviders = ({ children }: { children?: React.ReactNode }) => (
